@@ -620,7 +620,7 @@
     cursor: pointer;
 }
 .ScreenityDropdownMenuItem[data-disabled] {
-  color: #6E7684; !important;
+  color: #6E7684 !important;  /* 已修复：!important紧跟属性值，分号在最后 */
   cursor: not-allowed;
   background-color: #F6F7FB !important;
 }
